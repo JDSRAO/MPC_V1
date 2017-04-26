@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>ea102a7a-09b5-4dad-b281-81065e082d7f</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>MotorPremiumCalculator.Shared.Repository</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)PrivateCarActService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PrivateCarDb.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TwoWheelerDb.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TwoWheelerActService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SQLite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tables\FourWheelerUpto6Passenger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tables\PrivateCar.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tables\PrivateCarCC.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tables\TwoWheeler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tables\TwoWheelerCC.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tables\VechicleAge1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tables\VechicleAge2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tables\Zone.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Constants.cs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ApplicationName">Motor Premium Calculator</string>
+  
+  <!--Activities for loading screens-->
+  <string name="DetailsActivity">DetailsActivity</string>
+  <string name="TwoWheelerActActivity">TwoWheelerActActivity</string>
+  <string name="TwoWheelerComprehensiveActivity">TwoWheelerComprehensiveActivity</string>
+  <string name="PrivateCarActActivity">PrivateCarActActivity</string>
+  <string name="PrivateCarComprehensiveActivity">PrivateCarComprehensiveActivity</string>
+  
+  <!--Two wheeler, car Zones-->
+  <string-array name="ABZones_array">
+    <item>A</item>
+    <item>B</item>
+  </string-array>
+  
+  <!--PCCV UP TO 6 PASSENGERS (OTHER THAN 3 WHEELER) Zones-->
+  <string-array name="ABCZones_array">
+    <item>A</item>
+    <item>B</item>
+  </string-array>
+  
+  <!--Two wheeler pa to pillion rider values-->
+  <string-array name="twoWheelerPaPillionRiderValues_array">
+    <item>10000</item>
+    <item>20000</item>
+    <item>30000</item>
+    <item>40000</item>
+    <item>50000</item>
+    <item>60000</item>
+    <item>70000</item>
+    <item>80000</item>
+    <item>90000</item>
+    <item>100000</item>
+  </string-array>
+  
+  
+  <string name="string_twoWheeler">Two wheeler</string>
+  <string name="string_privateCar">Private car</string>
+  <string name="string_4WheelerUpto6Passenger">4 Wheeler upto 6 passenger</string>
+  <string name="string_4WheelerMoreThan6Passenger">4 Wheeler more than 6 passenger</string>
+  <string name="string_goodsCarriagePublic">Goods carriage public</string>
+  <string name="string_goodsCarriagePrivate">Goods carriage private</string>
+  <string name="string_3wheelerGoodsAutoPublic">3 Wheeler goods auto public</string>
+  <string name="string_3wheelerGoodsAutoPrivate">3 Wheeler goods auto private</string>
+  <string name="string_3wheeledPassengerLessThan6Passenger">3 Wheeled passenger less than 6 passenger</string>
+  <string name="string_3wheeledPassengerMoreThan6Passenger">3 Wheeled passenger more than 6 pass</string>
+  <string name="string_misc">Misc. type of vehicle</string>
+  
+  <!--Spinner value items-->
+  <string-array name="vachicle_arrays">
+    <item>Type of Vechicle</item>
+    <item>Two Wheeler</item>
+    <item>Private Car</item>
+    <item>4 Wheeler upto 6 pass</item>
+    <item>4 Wheeler more 6 pass</item>
+    <item>Goods Carriage Public</item>
+    <item>Goods Carriage Private</item>
+    <item>3 Wheeler Goods Auto public</item>
+    <item>3 Wheeler Goods Auto Private</item>
+    <item>3 Wheeled Passenger less than 6 pass</item>
+    <item>3 Wheeled Passenger more than 6 pass</item>
+    <item>Misc. Type of Vehicle</item>
+  </string-array>
+  <string-array name="NCB_arrays">
+    <item>No Claim Bonus</item>
+    <item>0</item>
+    <item>20</item>
+    <item>25</item>
+    <item>35</item>
+    <item>45</item>
+    <item>50</item>
+  </string-array>
+  <string-array name="CC_arrays">
+    <item>50</item>
+    <item>100</item>
+    <item>150</item>
+    <item>350</item>
+    <item>1000</item>
+    <item>1500</item>
+    <item>2500</item>
+  </string-array>
+  <string-array name="GVW_array">
+    <item>1000</item>
+    <item>7500</item>
+    <item>12000</item>
+    <item>20000</item>
+    <item>40000</item>
+    <item>100000</item>
+  </string-array>
+
+
+</resources>

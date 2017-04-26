@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="@dimen/fill_parent"
+    android:layout_height="@dimen/fill_parent">
+    <ScrollView
+        android:layout_width="@dimen/fill_parent"
+        android:layout_height="@dimen/fill_parent"
+        android:id="@+id/ScrollView1"
+        android:padding="5dp">
+        <TableLayout
+            android:minWidth="15px"
+            android:minHeight="15px"
+            android:layout_marginLeft="@dimen/layout_marginLeft"
+            android:layout_marginRight="@dimen/layout_marginRight"
+            android:layout_width="@dimen/fill_parent"
+            android:layout_height="@dimen/fill_parent"
+            android:id="@+id/tableLayout11">
+            <TableRow
+                android:layout_width="@dimen/fill_parent"
+                android:layout_height="@dimen/wrap_content">
+                <TextView
+                    android:text="OD Basic"
+                    android:layout_weight="4"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:id="@+id/tv_ODBasic"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                <EditText
+                    android:inputType="number"
+                    android:layout_weight="1"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:id="@+id/et_ODBasic"
+                    android:enabled="false"
+                    android:text="0" />
+            </TableRow>
+            <TableRow
+                android:layout_width="@dimen/fill_parent"
+                android:layout_height="@dimen/wrap_content">
+                <TextView
+                    android:text="Add.Ton."
+                    android:layout_weight="4"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:id="@+id/tv_AddTon"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                <EditText
+                    android:inputType="number"
+                    android:layout_weight="1"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:id="@+id/et_AddTon"
+                    android:enabled="false"
+                    android:text="0" />
+            </TableRow>
+            <TableRow
+                android:layout_width="@dimen/fill_parent"
+                android:layout_height="@dimen/wrap_content">
+                <TextView
+                    android:text="Discount"
+                    android:layout_weight="4"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:id="@+id/tv_Discount"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                <EditText
+                    android:inputType="number"
+                    android:layout_weight="1"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:id="@+id/et_Discount"
+                    android:enabled="false"
+                    android:text="0" />
+            </TableRow>
+            <TableRow
+                android:layout_width="@dimen/fill_parent"
+                android:layout_height="@dimen/wrap_content">
+                <TextView
+                    android:text="N C B"
+                    android:layout_weight="4"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:id="@+id/tv_NCB"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                <EditText
+                    android:inputType="number"
+                    android:layout_weight="1"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:id="@+id/et_NCB"
+                    android:enabled="false"
+                    android:text="0" />
+            </TableRow>
+            <TableRow
+                android:layout_width="@dimen/fill_parent"
+                android:layout_height="@dimen/wrap_content">
+                <TextView
+                    android:text="IMT14(Paint Chrgs)"
+                    android:layout_weight="4"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:id="@+id/tv_IMT14PaintChrgs"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                <EditText
+                    android:inputType="number"
+                    android:layout_weight="1"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:id="@+id/et_IMT14PaintChrgs"
+                    android:enabled="false"
+                    android:text="0" />
+            </TableRow>
+            <TableRow
+                android:layout_width="@dimen/fill_parent"
+                android:layout_height="@dimen/wrap_content">
+                <TextView
+                    android:text="OD Total"
+                    android:layout_weight="4"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:id="@+id/tv_ODTotal"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                <EditText
+                    android:inputType="number"
+                    android:layout_weight="1"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:id="@+id/et_ODTotal"
+                    android:enabled="false"
+                    android:text="0" />
+            </TableRow>
+            <TableRow
+                android:layout_width="@dimen/fill_parent"
+                android:layout_height="@dimen/wrap_content">
+                <TextView
+                    android:text="TP Basic"
+                    android:layout_weight="4"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:id="@+id/tv_TPBasic"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                <EditText
+                    android:inputType="number"
+                    android:layout_weight="1"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:id="@+id/et_TPBasic"
+                    android:enabled="false"
+                    android:text="0" />
+            </TableRow>
+            <TableRow
+                android:layout_width="@dimen/fill_parent"
+                android:layout_height="@dimen/wrap_content">
+                <TextView
+                    android:text="PA Owner Dr."
+                    android:layout_weight="4"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:id="@+id/tv_PAToOwnerDriver"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                <EditText
+                    android:inputType="number"
+                    android:layout_weight="1"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:id="@+id/et_PAToOwnerDriver"
+                    android:enabled="false"
+                    android:text="0" />
+            </TableRow>
+            <TableRow
+                android:layout_width="@dimen/fill_parent"
+                android:layout_height="@dimen/wrap_content">
+                <TextView
+                    android:text="LL. to Dr and Cl"
+                    android:layout_weight="4"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:id="@+id/tv_LLtoDrAndCl"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                <EditText
+                    android:inputType="number"
+                    android:layout_weight="1"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:id="@+id/et_LLtoDrAndCl"
+                    android:enabled="false"
+                    android:text="0" />
+            </TableRow>
+            <TableRow
+                android:layout_width="@dimen/fill_parent"
+                android:layout_height="@dimen/wrap_content">
+                <TextView
+                    android:text="LL to Passengers"
+                    android:layout_weight="4"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:id="@+id/tv_LLToPassengers"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                <EditText
+                    android:inputType="number"
+                    android:layout_weight="1"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:id="@+id/et_LLToPassengers"
+                    android:enabled="false"
+                    android:text="0" />
+            </TableRow>
+            <TableRow
+                android:layout_width="@dimen/fill_parent"
+                android:layout_height="@dimen/wrap_content">
+                <TextView
+                    android:text="PA to Non Fare Pass"
+                    android:layout_weight="4"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:id="@+id/tv_PAToNonFarePass"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                <EditText
+                    android:inputType="number"
+                    android:layout_weight="1"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:id="@+id/et_PAToNonFarePass"
+                    android:enabled="false"
+                    android:text="0" />
+            </TableRow>
+            <TableRow
+                android:layout_width="@dimen/fill_parent"
+                android:layout_height="@dimen/wrap_content">
+                <TextView
+                    android:text="PA to Dr. and Cleaner"
+                    android:layout_weight="4"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:id="@+id/tv_PAToDrAndCleaner"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                <EditText
+                    android:inputType="number"
+                    android:layout_weight="1"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:id="@+id/et_PAToDrAndCleaner"
+                    android:enabled="false"
+                    android:text="0" />
+            </TableRow>
+            <TableRow
+                android:layout_width="@dimen/fill_parent"
+                android:layout_height="@dimen/wrap_content">
+                <TextView
+                    android:text="PA to Unnamed Passengers"
+                    android:layout_weight="4"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:id="@+id/tv_PAToUnnamedPassengers"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                <EditText
+                    android:inputType="number"
+                    android:layout_weight="1"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:id="@+id/et_PAToUnnamedPassengers"
+                    android:enabled="false"
+                    android:text="0" />
+            </TableRow>
+            <TableRow
+                android:layout_width="@dimen/fill_parent"
+                android:layout_height="@dimen/wrap_content">
+                <TextView
+                    android:text="TP Total"
+                    android:layout_weight="4"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:id="@+id/tv_TPTotal"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                <EditText
+                    android:inputType="number"
+                    android:layout_weight="1"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:id="@+id/et_TPTotal"
+                    android:enabled="false"
+                    android:text="0" />
+            </TableRow>
+            <TableRow
+                android:layout_width="@dimen/fill_parent"
+                android:layout_height="@dimen/wrap_content">
+                <TextView
+                    android:text="Total Prem"
+                    android:layout_weight="4"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:id="@+id/tv_TotalPrem"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                <EditText
+                    android:inputType="number"
+                    android:layout_weight="1"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:enabled="false"
+                    android:id="@+id/et_TotalPrem"
+                    android:text="0" />
+            </TableRow>
+            <TableRow
+                android:layout_width="@dimen/fill_parent"
+                android:layout_height="@dimen/wrap_content">
+                <TextView
+                    android:text="Service Tax"
+                    android:layout_weight="4"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:id="@+id/tv_ServiceTax"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                <EditText
+                    android:inputType="number"
+                    android:layout_weight="1"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:enabled="false"
+                    android:id="@+id/et_ServiceTax"
+                    android:text="0" />
+            </TableRow>
+            <TableRow
+                android:layout_width="@dimen/fill_parent"
+                android:layout_height="@dimen/wrap_content">
+                <TextView
+                    android:text="Total Amount"
+                    android:layout_weight="4"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:id="@+id/tv_TotolAmount"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                <EditText
+                    android:inputType="number"
+                    android:layout_weight="1"
+                    android:layout_width="@dimen/layout_width_0dp"
+                    android:layout_height="@dimen/wrap_content"
+                    android:enabled="false"
+                    android:id="@+id/et_TotolAmount"
+                    android:text="0" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

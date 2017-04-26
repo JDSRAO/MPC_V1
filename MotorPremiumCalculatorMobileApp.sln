@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotorPremiumCalculator.Droid", "MotorPremiumCalculator.Droid\MotorPremiumCalculator.Droid.csproj", "{95E75E7C-CECD-4FD8-A775-13A0952C362F}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MotorPremiumCalculator.Shared.Repository", "MotorPremiumCalculator.Shared.Repository\MotorPremiumCalculator.Shared.Repository.shproj", "{EA102A7A-09B5-4DAD-B281-81065E082D7F}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		MotorPremiumCalculator.Shared.Repository\MotorPremiumCalculator.Shared.Repository.projitems*{95e75e7c-cecd-4fd8-a775-13a0952c362f}*SharedItemsImports = 4
+		MotorPremiumCalculator.Shared.Repository\MotorPremiumCalculator.Shared.Repository.projitems*{ea102a7a-09b5-4dad-b281-81065e082d7f}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95E75E7C-CECD-4FD8-A775-13A0952C362F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95E75E7C-CECD-4FD8-A775-13A0952C362F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95E75E7C-CECD-4FD8-A775-13A0952C362F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{95E75E7C-CECD-4FD8-A775-13A0952C362F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95E75E7C-CECD-4FD8-A775-13A0952C362F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95E75E7C-CECD-4FD8-A775-13A0952C362F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

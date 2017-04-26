@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <dimen name="layout_width_0dp">0dp</dimen>
+  <dimen name="layout_marginLeft">5dp</dimen>
+  <dimen name="layout_marginRight">5dp</dimen>
+  <item name="match_parent" format="integer" type="dimen">-1</item>
+  <item name="fill_parent" format="integer" type="dimen">-1</item>
+  <item name="wrap_content" format="integer" type="dimen">-2</item>
+</resources>

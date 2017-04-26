@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <!--<style name="MyTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+    -->
+  <!--<item name="android:windowNoTitle">true</item>
+    <item name="android:windowActionBar">false</item>-->
+  <!--
+    <item name="android:colorPrimary">#5A8622</item>
+  </style>-->
+  <style name="AppThemeLight" parent="android:Theme.Material.Light.DarkActionBar">
+    <item name="android:colorPrimary">@color/mygreen</item>
+    <item name="android:textColor">#F44336</item>
+  </style>
+  <style name="AppThemeDark" parent="android:Theme.Material">
+    <!--<item name="android:statusBarColor">@color/mygreen</item>
+    <item name="android:colorPrimary">@color/mygreen</item>
+    <item name="android:textColorPrimary">#FFFFFF</item>-->
+    <!--<item name="android:textColor">#F44336</item>-->
+    <!--<item name="android:colorAccent">#000000</item>-->
+    <!--<item name="android:windowBackground">@color/backgroudn_whie</item>-->
+     <item name="android:windowContentTransitions">true</item>
+    <item name="android:windowAllowEnterTransitionOverlap">true</item>
+    <item name="android:windowAllowReturnTransitionOverlap">true</item>
+    <item name="android:windowSharedElementEnterTransition">@android:transition/move</item>
+    <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
+    <!--<item name="android:windowNoTitle">true</item>
+    <item name="android:windowActionBar">false</item>-->
+    
+  </style>
+
+  <!--<style name="AppThemeBasic1" parent="android:Theme.Material">
+    --><!-- Main theme colors --><!--
+    --><!--   your app branding color for the app bar --><!--
+    --><!--<item name="android:colorPrimary">#5A8622</item>--><!--
+    --><!--   darker variant for the status bar and contextual app bars --><!--
+    --><!--<item name="android:colorPrimaryDark">@color/primary_dark</item>--><!--
+    --><!--   theme UI controls like checkboxes and text fields --><!--
+    <item name="android:colorAccent">#000000</item>
+  </style>-->
+</resources>

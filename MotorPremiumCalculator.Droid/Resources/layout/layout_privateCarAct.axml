@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+        <Button
+            android:id="@+id/privateCar_Act_btn_Calculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/privateCar_Act_btn_Calculate"
+            android:visibility="visible"
+            android:id="@+id/container_totalAmt"
+            android:layout_margin="3dp">
+            <TextView
+                android:text="Total Amount:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:id="@+id/tv_TotalAmount" />
+            <EditText
+                android:inputType="number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_privateCar_TotalAmount"
+                android:enabled="false"
+                android:layout_weight=".5"
+                android:text="0" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ScrollView
+        android:id="@+id/scrollableContents"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/footer">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="vertical"
+            android:id="@+id/container_twoWheelerInput"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp">
+            <TextView
+                android:text="Vechicle CC"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_VechicleCC" />
+            <Spinner
+                android:entries="@array/CC_arrays"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/privateCar_ddl_CC"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp" />
+            <TextView
+                android:text="Zones"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_Zones" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/ABZones_array"
+                android:id="@+id/privateCar_ddl_zones"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
